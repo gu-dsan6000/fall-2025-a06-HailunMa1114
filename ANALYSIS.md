@@ -6,3 +6,6 @@ In Problem 2, I parsed cluster application logs to construct timelines and summa
 
 ## Performance and Insights
 Both pipelines demonstrated that Spark is well-suited for large-scale log and cluster analysis, especially when regex extraction and groupBy operations are pushed to the executors. From Problem 1, the key insight is that system health was stable with almost no critical failures. From Problem 2, the cluster analysis shows a clear dominant compute node and long-tail job distribution, implying that capacity planning should prioritize the most active cluster while smaller ones can be scaled down or repurposed. Overall execution was stable and reproducible on the Spark cluster, with the 4040 UI confirming task parallelism and successful stage completion.
+
+![8080](8080.png)
+![4040](4040.png)
