@@ -1,0 +1,11 @@
+log_entry,log_level
+"17/06/08 11:30:33 INFO python.PythonRunner: Times: total = 40, boot = -215, init = 255, finish = 0",INFO
+"17/06/09 10:06:52 INFO storage.MemoryStore: Block rdd_2931_26 stored as bytes in memory (estimated size 16.0 B, free 7.1 MB)",INFO
+"17/06/10 15:29:48 INFO python.PythonRunner: Times: total = 39, boot = 9, init = 30, finish = 0",INFO
+17/06/09 21:21:02 INFO executor.Executor: Running task 8.0 in stage 1833.0 (TID 74565),INFO
+"17/06/09 13:11:15 INFO python.PythonRunner: Times: total = 40, boot = 37, init = 3, finish = 0",INFO
+17/06/09 12:20:16 INFO executor.Executor: Finished task 11.0 in stage 8316.0 (TID 333097). 2076 bytes result sent to driver,INFO
+17/06/08 10:19:39 INFO mapred.SparkHadoopMapRedUtil: attempt_201706081019_1116_m_000034_44674: Committed,INFO
+"17/06/08 19:51:57 INFO python.PythonRunner: Times: total = 38, boot = -24, init = 62, finish = 0",INFO
+17/06/08 19:44:56 INFO mapred.SparkHadoopMapRedUtil: attempt_201706081952_6762_m_000022_270545: Committed,INFO
+17/06/09 22:04:32 INFO storage.BlockManager: Found block rdd_11548_36 locally,INFO
